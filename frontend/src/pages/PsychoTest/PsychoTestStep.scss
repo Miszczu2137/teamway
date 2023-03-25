@@ -1,0 +1,26 @@
+.psychoTestStep__ {
+  &question {
+    font-weight: bold;
+    font-size: 1em;
+    padding-bottom: 2em;
+    height: 5em;
+  }
+
+  &answers {
+    text-align: left;
+  }
+
+  &answer {
+    padding: 1em;
+    border: 0.1em solid #000;
+    margin-bottom: 0.2em;
+    width: 100%;
+    justify-content: left;
+    text-align: left;
+    color: #000;
+
+    &:hover {
+      color: blue;
+    }
+  }
+}
