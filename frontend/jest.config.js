@@ -6,7 +6,7 @@ module.exports = {
   },
   transformIgnorePatterns: ['<rootDir>/node_modules/'],
   moduleNameMapper: {
-    '\\.(css|scss)$': '<rootDir>/src/__mocks__/styleMock.js',
+    '\\.(css|scss)$': '<rootDir>/__mocks__/styleMock.js',
   },
-  setupFilesAfterEnv: ['<rootDir>/src/setupTests.ts'],
+  setupFilesAfterEnv: ['<rootDir>/setupTests.ts'],
 };
